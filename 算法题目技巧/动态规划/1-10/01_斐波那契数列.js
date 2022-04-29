@@ -10,10 +10,10 @@
 // 4-确定遍历顺序   从前向后递归
 // 5-举例推导dp数组
 
-function fib(n){
-  let dp=[0,1]
-  for(let i=2;i<=n;i++){
-    dp[i]=dp[i-1]+dp[i-2]
+function fib(n) {
+  let dp = [0, 1]
+  for (let i = 2; i <= n; i++) {
+    dp[i] = dp[i - 1] + dp[i - 2]
   }
   return dp[n]
 }
