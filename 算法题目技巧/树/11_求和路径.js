@@ -1,3 +1,4 @@
+// https://leetcode.cn/problems/paths-with-sum-lcci/
 var pathSum = function (root, sum) {
   const dfs = (node, total) => {
     if (!node) return;
