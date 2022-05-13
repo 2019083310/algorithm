@@ -14,7 +14,7 @@ var subarraysDivByK = function (nums, k) {
   for (let i = 0; i < len; i++) {
     befores.push(befores[i] + nums[i])
   }
-  // console.log(befores)
+  console.log(befores)
   let count = 0
   let map = new Map()
   map.set(0, 1)
@@ -28,3 +28,4 @@ var subarraysDivByK = function (nums, k) {
   }
   return count
 };
+subarraysDivByK([4, 5, 0, -2, -3, 1], 5)
